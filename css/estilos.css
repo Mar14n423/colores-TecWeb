@@ -22,7 +22,7 @@ div{
     width: 150px;
     height: 150px;
     background-color: hsl(330, 82%, 71%);
-}*/
+}
 .caja1{
     color: red;
 }
@@ -38,5 +38,24 @@ button:hover{
 input:disabled{
     border: 2px solid orange;
 }
-
-
+p::first-line{
+    color: red;
+}
+.foo,.bar{
+    color: green;
+}
+.abuelo div{
+    color: blueviolet;
+}
+.abuelo > div{
+    color: blueviolet;
+}
+.hijo1~div{
+    color: brown;
+}*/
+#outer #inner a{
+    background-color: blue;
+}
+#outer a{
+    background-color: red;
+}
